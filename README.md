@@ -1,2 +1,3 @@
-# AprendizadoC
- Aqui fica tudo o que eu aprendi sobre a linguagem c.
+# Linguagem de Programação C.
+
+Decidi começar minha carreira como programador aprendendo c, fiz esse repositorio como uma forma de backup de tudo.
