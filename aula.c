@@ -12,6 +12,6 @@ int main()
     bool euSouLindo = true;
 
     printf ("Eu tenho %i anos e a soma é %.1f\n", IDADE, num);
-    printf ("%d", euSouLindo);
+    printf ("%d\n", euSouLindo);
     return 0;
 }
