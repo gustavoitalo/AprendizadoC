@@ -1,17 +1,14 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main()
 {
-// animado pra começar a aprender c.
+    int dinheiro, dolar;
 
-    const int IDADE = 18;
-    const int OUTRAIDADE = 13;
-    float num = (float) (IDADE + OUTRAIDADE)/2;
+    printf ("quanto dinheiro? ");
+    scanf ("%d", &dinheiro);
+    dolar = dinheiro/3.45;
+    printf ("%d da certa de %d dolares\n", dinheiro, dolar);
+    
 
-    bool euSouLindo = true;
-
-    printf ("Eu tenho %i anos e a soma é %.1f\n", IDADE, num);
-    printf ("%d\n", euSouLindo);
     return 0;
 }
