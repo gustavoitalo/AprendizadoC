@@ -15,9 +15,9 @@ int main()
 
     printf ("%d ou %i\n", numero);    // para o formato int.
     printf ("%f\n", decimal1);    //para float.
-    printf ("%d ou %lf\n", decimal2); //para double.
+    printf ("%lf\n", decimal2); //para double.
     printf ("%c\n", letra); // para char.
-    printf ("%d\n", trueOrFalse); // para o tipo booleano o %d tambem é usado.
+    printf ("%d\n", trueOrFalse); // para o tipo booleano.
 // %s é usado para strings porem ainda não foi abordado no curso.
 
     return 0;
