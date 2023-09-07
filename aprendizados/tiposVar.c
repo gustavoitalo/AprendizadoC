@@ -9,7 +9,7 @@ int main()
     float decimal1 = 1.23;  //pode numero com decimais de ate 6-7 digitos (gasta 4 bytes).
     double decimal2 = 1.23; //pode numero com decimais de ate 15 digitos (gasta 8 bytes).
     char letra = 'A';   //permite apenas uma letra (gasta 1 byte).
-    bool trueOrFalse = true; // permite apenas dois formatos logicos, true e false.
+    bool trueOrFalse = true; // permite apenas dois formatos logicos, true e false. (gasta 1 byte).
 
 // Espesificasões de formato de cada variavel:
 
