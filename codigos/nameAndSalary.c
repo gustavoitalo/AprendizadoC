@@ -5,8 +5,6 @@ int main ()
     char name[100];
     float salary;
 
-
-
     printf("name? ");
     scanf("%99s", name);
 
