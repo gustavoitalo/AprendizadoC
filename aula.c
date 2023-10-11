@@ -2,17 +2,16 @@
 
 int main(){
 
-  int i = 1;
-  int num;
+  int i = 30;
 
-  printf("quantas vezes?");
-  scanf("%d", &num);
-
-while (i <= num) {
-  printf("%d\n", i);
-  i++;
+while (i >= 1) {
+  if ((i % 4) == 0){
+    printf(" [%d] ", i);
+  }else{
+    printf(" %d ", i);
+  }
+  i--;
 }
-printf("Acabou!");
 
   return 0;
 }
