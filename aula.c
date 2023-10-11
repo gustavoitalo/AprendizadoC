@@ -2,16 +2,13 @@
 
 int main(){
 
-  int carro;
+  int numero;
 
-  printf("qual a velocidade do carro? (km/h)");
-  scanf("%d", &carro);
-
-  if (carro > 80) {
-    carro *= 5;
-    printf("você foi multado em cerca de %d reais", carro);
-  }else {
-    printf("você não vai ser multado!");
+  scanf("%d", &numero);
+  if ((numero % 2) == 0) {
+    printf("é uma numero par\n");
+  }else{
+    printf("não é par\n");
   }
 
   return 0;
