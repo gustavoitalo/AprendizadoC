@@ -1,26 +1,32 @@
 #include <stdio.h>
 
 int main(){
-  
-  int i = 1;
-  int idade, media, Midade, midade;
-  int idadem = 0;
 
-  while (i <= 5) {
-    printf("qual a sua idade? ");
-      scanf("%d", &idade);
-      media+=idade;
-      if (idade >= 18){
-        Midade++;
-      }else if (idade <= 5) {
-        midade++;
-      } 
-      if (idade > idadem){
-        idadem = idade;
-      }
-    i++;
+ int i = 1;
+ int peso, media, pesado, leve, pesadao;
+ float altura;
+
+ while (i <= 4) {
+  printf("peso: ");
+  scanf("%d", &peso);
+  printf("altura: ");
+  scanf("%f", &altura);
+
+  media+=altura;
+
+  if (peso >= 90) {
+    pesado++;
+  }else if (peso <= 50 && altura <= 1.50) {
+    leve++;
+  } if (peso >= 100 && altura >= 1.90) {
+    pesadao++;
   }
-  printf("a media de idade é %d, %d pessoas tem mais de 18 e %d tem menos de 5; a maior idade é de %d ", (media/5), Midade, midade, idadem);
+
+   i++;
+
+ }
+
+ printf("media altura: %d, pesam mais de 90: %d, muito leve: %d, muito pesado: %d", (media/2), pesado, leve, pesadao);
 
   return 0;
 }
