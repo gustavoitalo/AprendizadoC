@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-int main(){
+  int numero(int a) {
+    printf(" %d ", a);
+    return a;
+  }
 
+int main() {
+
+  numero(8);
 
 
   return 0;
 }
-
-
