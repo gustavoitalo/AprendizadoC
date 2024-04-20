@@ -8,5 +8,4 @@ int main() {
 
   printf("%ld\n", sizeof(nome));
   printf("%ld\n", sizeof(pNome));
-  
 } 
