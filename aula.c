@@ -2,7 +2,7 @@
 
 int main() {
   
-  char nome[] = "Gustavoiatlomendesnlima";
+  char nome[] = "Gustmendesnlima";
   char *pNome = nome;
 
   printf("%s\n", nome);
